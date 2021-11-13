@@ -1,0 +1,208 @@
+/* Add all your styles here */
+.m h2{
+position: relative;
+pointer-event:none;
+
+
+}
+
+.m input:hover .m h2{
+
+transfom: translateX(44px);
+
+
+
+}
+*{
+margin:0;
+padding: 0;
+box-sizing:border-box;
+
+
+}
+.nabvar{
+position:absolute;
+height: 110px;
+width:100%;
+background-color: rgba(0,0,0,0.3px);
+top: 0;
+}
+.navbar ul{
+list-style: none;
+position:absolute;
+background:rgba(0,0,0,0.3) ;
+top:0;
+width:100% ;
+height:30px ;
+right:0;
+}
+
+li{
+
+float:left;
+top:0;
+
+}
+.navbar li a{
+color:black;
+text-decoration:none ;
+margin-left: 30px;
+padding: 10px 10px;
+
+}
+#active{
+padding-bottom:10px ;
+padding-right: 5px;
+padding-left: -5px;
+background: white;
+
+}
+.navbar li a:hover{
+
+padding-bottom:10px ;
+padding-right: 5px;
+padding-left: -5px;
+background: white;
+transition:1s;
+
+}
+
+
+
+body {
+padding:0 ;
+margin:0 ;
+box-sizing:border-box;
+align-items:center;
+justify-content:center;
+background-image:url("/images/bg.jpeg") ;
+background-size:cover;
+background-position:fixed ;
+background-attachment: fixed;
+ }
+.m{ 
+ 
+width: 250px;
+ height: 320px;
+z-index:2;
+margin-top:-200px ;
+border: 2px inset;
+margin-left:50px;
+backdrop-filter:blur(5px);
+border-radius:30px;
+
+}
+.m input{ 
+width:200px;
+background: transparent;
+box-shadow:-30px -30px 30px rgba(0,0,0,0.3);
+border-bottom: 2px solid gold;
+color:gold;
+
+}
+form { 
+width: 200px;
+height: 3;
+margin-top:px;
+margin-left:30px;
+
+}
+h2{
+color:gold;
+font-size: 10px;
+line-height: 0px;
+position: absoulute;
+margin-top:55px ;
+
+}
+.sub input { 
+width:200px ;
+background-color:gold ;
+margin-top: -10px;
+border-radius:30px;
+border: 2px solid gold ;
+color:black;
+z-index:;
+}
+
+.sub input:after{
+content:"";
+position:absolute;
+background-color: red;
+
+
+height:100%;
+}
+.intro{
+margin-left:400px;
+
+margin-top: 200px;
+}
+.intro h1, p{
+
+color:gold;
+
+
+ }
+
+
+
+
+.m input:focus{
+border-bottom:2px solid blue ;
+background:transparent;
+color:gold;
+transition: 1s;
+
+}
+.about{
+transition:3s;
+width:100px ;
+height: 200px;
+margin-top:300px ;
+border: 2px solid gold;
+position: relative;
+backdrop-filter: blur(12px);
+}
+.about img{
+
+width:100px;
+height: 200px;
+
+}
+.about h1,h3,h4{
+position:absolute ;
+top:0;
+left:120px;
+color:gold
+}
+.about h3{
+display: block;
+margin-top:66px ;
+
+
+}
+.about h4{
+
+margin-top:120px ;
+font-size: 20px;
+color:gold ;
+}
+.about:hover
+{
+width:400px ;
+
+transition:3s;
+
+}
+.textbox{
+
+
+visibility:hidden ;
+
+}
+.about:hover .textbox{
+transition:3s;
+visibility:visible;
+
+}
