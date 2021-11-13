@@ -75,7 +75,7 @@ margin:0 ;
 box-sizing:border-box;
 align-items:center;
 justify-content:center;
-background-image:url("/images/bg.jpeg") ;
+background-image:url("bg.jpeg") ;
 background-size:cover;
 background-position:fixed ;
 background-attachment: fixed;
